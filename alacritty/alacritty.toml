@@ -5,7 +5,7 @@ TERM = "xterm-256color"
 size = 14
 
   [font.normal]
-  family = "Dank Mono"
+  family = "Geist Mono Variable"
   style = "Regular"
 
   [font.bold]
@@ -22,7 +22,7 @@ option_as_alt = "Both"
 dynamic_padding = false
 decorations = "buttonless"
 startup_mode = "Windowed"
-opacity = 0.85
+opacity = 0.9
 
   [window.padding]
   x = 12
