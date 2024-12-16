@@ -5,8 +5,8 @@ TERM = "xterm-256color"
 size = 18
 
   [font.normal]
-  family = "Geist Mono Variable"
-  style = "Regular"
+  family = "Iosevka"
+  style = "Extralight"
 
   [font.bold]
   style = "Bold"
@@ -22,7 +22,7 @@ option_as_alt = "Both"
 dynamic_padding = false
 decorations = "buttonless"
 startup_mode = "Windowed"
-opacity = 0.88
+opacity = 0.85
 
   [window.padding]
   x = 12
@@ -31,6 +31,10 @@ opacity = 0.88
 [colors.primary]
 background = "#161617"
 foreground = "#c9c7cd"
+
+# [colors.primary]
+# background = '0xf9f5d7'
+# foreground = '0x654735'
 
 [colors.cursor]
 text = "#c9c7cd"
@@ -46,6 +50,16 @@ magenta = "#e29eca"
 cyan = "#ea83a5"
 white = "#c1c0d4"
 
+## [colors.normal]
+## black = '0x654735'
+## red = '0xc14a4a'
+## green = '0x6c782e'
+## yellow = '0xb47109'
+## blue = '0x45707a'
+## magenta = '0x945e80'
+## cyan = '0x4c7a5d'
+## white = '0xf2e5bc'
+
 [colors.bright]
 black = "#353539"
 red = "#ffae9f"
@@ -56,3 +70,12 @@ magenta = "#ecaad6"
 cyan = "#f591b2"
 white = "#cac9dd"
 
+## [colors.bright]
+## black = '0x654735'
+## red = '0xc14a4a'
+## green = '0x6c782e'
+## yellow = '0xb47109'
+## blue = '0x45707a'
+## magenta = '0x945e80'
+## cyan = '0x4c7a5d'
+## white = '0xf2e5bc'
